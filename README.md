@@ -41,4 +41,8 @@
 ## 以下是流程圖
 
 ![This is a alt text.](/image/image_p1.png "This is a sample image.")
-Blocks of code
+
+![This is a alt text.](/image/image_p2.png "This is a sample image.")
+
+![This is a alt text.](/image/image_p3.png "This is a sample image.")
+
