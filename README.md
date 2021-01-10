@@ -46,4 +46,7 @@
 
 ![This is a alt text.](/image/image_p3.png "This is a sample image.")
 
+**後臺管理:**  
+使用Firebase 即時更新。
+
 ![This is a alt text.](/Gif/專題報告.gif "This is a sample image.")
