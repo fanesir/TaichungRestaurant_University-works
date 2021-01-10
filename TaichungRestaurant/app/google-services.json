@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "799572832025",
+    "firebase_url": "https://tichung-rsturnt-informton.firebaseio.com",
+    "project_id": "tichung-rsturnt-informton",
+    "storage_bucket": "tichung-rsturnt-informton.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799572832025:android:86af8b50838a5c0f",
+        "android_client_info": {
+          "package_name": "com.example.s0936.taichungrestaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799572832025-vo2iksjjgsi66459fp2dj3s7mej2atfm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.s0936.taichungrestaurant",
+            "certificate_hash": "b0ff4a41d776529100d5b9270f1a061fe6a17804"
+          }
+        },
+        {
+          "client_id": "799572832025-eiehpgn0kojpja3vips8uk6ts7aft3rc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbMjQCFC7aOVR0OQ7XzL5J7gAZkLKYaMs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799572832025-eiehpgn0kojpja3vips8uk6ts7aft3rc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

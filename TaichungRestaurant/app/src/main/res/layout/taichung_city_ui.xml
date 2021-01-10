@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/cityphoto"
+            android:layout_width="0dp"
+            android:layout_height="356dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+
+        <TextView
+            android:id="@+id/cityname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="128dp"
+            android:layout_marginTop="147dp"
+            android:text="123"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="60sp"
+            app:layout_constraintBottom_toBottomOf="@+id/cityphoto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/engname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cityname" />
+
+        <TextView
+            android:id="@+id/engineertalk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/cityRestaurant"
+            android:layout_alignBottom="@+id/cityRestaurant"
+            android:layout_marginBottom="33dp"
+            android:layout_marginStart="110dp"
+            android:layout_toLeftOf="@+id/cityRestaurant"
+            android:layout_toStartOf="@+id/cityRestaurant"
+            android:text="TextView"
+            android:textSize="1sp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/cityname"
+            app:layout_constraintStart_toStartOf="@+id/cityname" />
+
+        <TextView
+            android:id="@+id/cityRestaurant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView2"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_marginBottom="60dp"
+            android:layout_marginEnd="68dp"
+            android:layout_toEndOf="@+id/textView2"
+            android:layout_toRightOf="@+id/textView2"
+            android:text="TextView"
+            android:textSize="1sp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/cityname"
+            app:layout_constraintEnd_toEndOf="@+id/cityname" />
+
+        <TextView
+            android:id="@+id/engtack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="1sp"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="50dp"
+            tools:layout_editor_absoluteY="277dp" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</RelativeLayout>

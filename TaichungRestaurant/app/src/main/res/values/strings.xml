@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">網美劇</string>
+
+    <string name="facebook_app_id">2010283665951697</string>
+    <string name="fb_login_protocol_scheme">fb2010283665951697</string>
+    <color name="barcolor">#3F729B</color>
+
+</resources>
